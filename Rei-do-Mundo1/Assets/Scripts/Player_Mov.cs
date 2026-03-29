@@ -24,7 +24,7 @@ public class Player_Movement : MonoBehaviour
         if(moving == false) 
         {
             moveInput *= friction;
-        }
+        } 
     }
 
     public void Move(InputAction.CallbackContext context)   
