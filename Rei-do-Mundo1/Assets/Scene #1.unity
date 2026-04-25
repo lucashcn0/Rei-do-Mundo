@@ -119,6 +119,73 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &364186000
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 714028420684748566, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 714028420684748566, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 714028420684748566, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 714028420684748566, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 714028420684748566, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 714028420684748566, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 714028420684748566, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 714028420684748566, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 714028420684748566, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 714028420684748566, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5944108694243938497, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652261149968210805, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+      propertyPath: m_Name
+      value: Player_Bullet
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1525716789916425625, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+--- !u!1 &1225957162 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4626175035834460710, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
+  m_PrefabInstance: {fileID: 1449319642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1449319642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -172,49 +239,41 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8984227844798979321, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8984227844798979321, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8984227844798979321, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: m_ActionEvents.Array.data[11].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1844645890}
+      objectReference: {fileID: 1844645896}
     - target: {fileID: 8984227844798979321, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8984227844798979321, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Move
-      objectReference: {fileID: 0}
-    - target: {fileID: 8984227844798979321, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Player_Movement, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 8984227844798979321, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      propertyPath: m_ActionEvents.Array.data[11].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnFire
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4626175035834460710, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1844645896}
   m_SourcePrefab: {fileID: 100100000, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
---- !u!114 &1844645890 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1977978557725921454, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
+--- !u!4 &1844645895 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5555266875023471562, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
   m_PrefabInstance: {fileID: 1449319642}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &1844645896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225957162}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0acca1594c3f49e4eb6dc682b39b7034, type: 3}
+  m_Script: {fileID: 11500000, guid: f47b2fe4061b6dc46b38d234394ff65f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Player_Movement
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  bulletPrefab: {fileID: 6652261149968210805, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+  firePoint: {fileID: 1844645895}
+  fireRate: 0.2
 --- !u!1 &2011554022
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,3 +417,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 2011554026}
   - {fileID: 1449319642}
+  - {fileID: 364186000}
