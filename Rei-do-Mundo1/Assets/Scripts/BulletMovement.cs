@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class BulletMovement : MonoBehaviour
 {
-    public float speed = 10f;
-    public float lifeTime = 3f;
+    [SerializeField] private float speed = 10f;
+    [SerializeField] private float lifeTime = 3f;
 
     private Vector2 direction;
     private Rigidbody2D rb;
@@ -22,7 +22,7 @@ public class BulletMovement : MonoBehaviour
     {
         direction = dir.normalized;
 
-        // Rotaciona a bala na direção do movimento (opcional)
+        // Rotaciona na direção do movimento
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle);
     }

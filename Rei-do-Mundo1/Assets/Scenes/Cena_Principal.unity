@@ -119,6 +119,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &73843495 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6652261149968210805, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+  m_PrefabInstance: {fileID: 364186000}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &73843499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73843495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef79a08c1e1067c4ba8ef14b646e456f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletMovement
+  speed: 10
+  lifeTime: 3
 --- !u!1001 &364186000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -179,7 +198,10 @@ PrefabInstance:
     - {fileID: 1525716789916425625, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6652261149968210805, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 73843499}
   m_SourcePrefab: {fileID: 100100000, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
 --- !u!1 &1225957162 stripped
 GameObject:
@@ -253,6 +275,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4626175035834460710, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1844645896}
+    - targetCorrespondingSourceObject: {fileID: 4626175035834460710, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1844645902}
   m_SourcePrefab: {fileID: 100100000, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
 --- !u!4 &1844645895 stripped
 Transform:
@@ -271,6 +296,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f47b2fe4061b6dc46b38d234394ff65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+--- !u!114 &1844645902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225957162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0613c9bd9d35dfb409ff4b847e547987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerShooting
   bulletPrefab: {fileID: 6652261149968210805, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
   firePoint: {fileID: 1844645895}
   fireRate: 0.2
