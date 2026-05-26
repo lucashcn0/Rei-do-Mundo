@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerShooting : MonoBehaviour
+public class Shooter : MonoBehaviour
 {
     [Header("Setup")]
     [SerializeField] private GameObject bulletPrefab;

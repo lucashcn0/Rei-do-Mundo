@@ -3,26 +3,86 @@ using UnityEngine;
 
 public class BossController : MonoBehaviour
 {
+    [Header("References")]
+    [SerializeField] private Transform player;
+
+    [Header("Timers")]
+    [SerializeField] private float aimRefreshRate = 0.2f;
+    [SerializeField] private float teleportCooldown = 15f;
+
+    private Shooter shooter;
     private TPMovement tpMovement;
 
-    [SerializeField] private float teleportCooldown = 15f;
+    private void Awake()
+    {
+        shooter = GetComponent<Shooter>();
+        tpMovement = GetComponent<TPMovement>();
+    }
 
     private void Start()
     {
-        tpMovement = GetComponent<TPMovement>();
+        // Verificações de segurança
+        if (player == null)
+        {
+            Debug.LogError("Player não foi colocado no Inspector!");
+            return;
+        }
 
-        StartCoroutine(BossRoutine());
+        if (shooter == null)
+        {
+            Debug.LogError("PlayerShooting não encontrado!");
+            return;
+        }
 
+        if (tpMovement == null)
+        {
+            Debug.LogError("TPMovement não encontrado!");
+            return;
+        }
+
+        // Inicia as rotinas
+        StartCoroutine(AimRoutine());
+        StartCoroutine(TeleportRoutine());
     }
 
-    private IEnumerator BossRoutine()
+    // =========================
+    // MIRA NO PLAYER
+    // =========================
+    private IEnumerator AimRoutine()
     {
         while (true)
         {
-            // Espera 15 segundos
+            if (!tpMovement.isTeleporting)
+            {
+                AimAtPlayer();
+            }
+            else
+            {
+                // Para de atirar durante teleport
+                shooter.SetFireDirection(Vector2.zero);
+            }
+
+            yield return new WaitForSeconds(aimRefreshRate);
+        }
+    }
+
+    private void AimAtPlayer()
+    {
+        Vector2 direction =
+            (player.position - transform.position).normalized;
+
+        shooter.SetFireDirection(direction);
+    }
+
+    // =========================
+    // TELEPORTA
+    // =========================
+    private IEnumerator TeleportRoutine()
+    {
+        while (true)
+        {
             yield return new WaitForSeconds(teleportCooldown);
 
-            // Faz o teleport
             yield return StartCoroutine(tpMovement.TeleportRoutine());
         }
     }

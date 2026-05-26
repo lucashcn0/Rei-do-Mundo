@@ -138,11 +138,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletMovement
   speed: 10
   lifeTime: 3
---- !u!4 &73843500 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 714028420684748566, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
-  m_PrefabInstance: {fileID: 364186000}
+--- !u!1 &108854167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 108854168}
+  m_Layer: 0
+  m_Name: TP6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &108854168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108854167}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12, y: 3.33, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 352000418}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &240818341
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,7 +364,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.69731, y: 0.72877, z: 0}
-  m_LocalScale: {x: 1.3125, y: 1.35, z: 1}
+  m_LocalScale: {x: 2.025, y: 2.025, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 463462254}
@@ -378,6 +404,7 @@ Transform:
   - {fileID: 1134346013}
   - {fileID: 603100612}
   - {fileID: 1453360810}
+  - {fileID: 108854168}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &364186000
@@ -386,15 +413,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1844645895}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 714028420684748566, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.000970006
+      value: -0.68097
       objectReference: {fileID: 0}
     - target: {fileID: 714028420684748566, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.63268
+      value: 5.06268
       objectReference: {fileID: 0}
     - target: {fileID: 714028420684748566, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
       propertyPath: m_LocalPosition.z
@@ -973,6 +1000,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1977978557725921454, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
+      propertyPath: MoveSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4183557439196413795, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
       propertyPath: m_Constraints
       value: 4
@@ -983,11 +1014,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5555266875023471562, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.52097
+      value: -0.68
       objectReference: {fileID: 0}
     - target: {fileID: 5555266875023471562, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.17268
+      value: -1.57
       objectReference: {fileID: 0}
     - target: {fileID: 5555266875023471562, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1039,10 +1070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5555266875023471562, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 73843500}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4626175035834460710, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
       insertIndex: -1
@@ -1126,6 +1154,7 @@ GameObject:
   - component: {fileID: 1675517662}
   - component: {fileID: 1675517664}
   - component: {fileID: 1675517663}
+  - component: {fileID: 1675517665}
   m_Layer: 0
   m_Name: Rukasu
   m_TagString: Untagged
@@ -1265,7 +1294,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f6ddbe466427b74aa58bc9fd63e5373, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossController
-  teleportCooldown: 2
+  player: {fileID: 1844645895}
+  aimRefreshRate: 0.5
+  teleportCooldown: 3
 --- !u!114 &1675517664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1284,10 +1315,26 @@ MonoBehaviour:
   - {fileID: 1134346013}
   - {fileID: 603100612}
   - {fileID: 1453360810}
+  - {fileID: 108854168}
   spriteRenderer: {fileID: 1675517660}
   bossCollider: {fileID: 1675517662}
   hiddenTime: 1
   isTeleporting: 0
+--- !u!114 &1675517665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675517659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0613c9bd9d35dfb409ff4b847e547987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Shooter
+  bulletPrefab: {fileID: 6652261149968210805, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
+  firePoint: {fileID: 1675517661}
+  fireRate: 0.4
 --- !u!4 &1844645895 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5555266875023471562, guid: 8e3c9324ef00866478763320d06ee95b, type: 3}
@@ -1319,7 +1366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerShooting
   bulletPrefab: {fileID: 6652261149968210805, guid: 0b97b93b870a110479ab9fca03885334, type: 3}
   firePoint: {fileID: 1844645895}
-  fireRate: 0.8
+  fireRate: 0.4
 --- !u!1 &2011554022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,7 +1473,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 12
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1466,3 +1513,4 @@ SceneRoots:
   - {fileID: 338748031}
   - {fileID: 1675517661}
   - {fileID: 352000418}
+  - {fileID: 364186000}

@@ -3,11 +3,11 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    private PlayerShooting shooting;
+    private Shooter shooting;
 
     void Awake()
     {
-        shooting = GetComponent<PlayerShooting>();
+        shooting = GetComponent<Shooter>();
     }
 
     public void OnFire(InputAction.CallbackContext context)
