@@ -4,6 +4,8 @@ public class BulletMovement : MonoBehaviour
 {
     [SerializeField] private float speed = 10f;
     [SerializeField] private float lifeTime = 3f;
+    [SerializeField] private int damage = 10;
+    [SerializeField] private string targetTag;
 
     private Vector2 direction;
     private Rigidbody2D rb;
@@ -30,5 +32,18 @@ public class BulletMovement : MonoBehaviour
     void FixedUpdate()
     {
         rb.linearVelocity = direction * speed;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Health health = other.GetComponent<Health>();
+        if (!other.CompareTag(targetTag))
+        return;
+
+        if (health != null)
+        {
+            health.TakeDamage(damage);
+            Destroy(gameObject);
+        }
     }
 }
