@@ -1,5 +1,8 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
+
 
 public class BossController : MonoBehaviour
 {
@@ -12,6 +15,8 @@ public class BossController : MonoBehaviour
 
     private Shooter shooter;
     private TPMovement tpMovement;
+
+    private Health health;
 
     private void Awake()
     {
@@ -85,5 +90,12 @@ public class BossController : MonoBehaviour
 
             yield return StartCoroutine(tpMovement.TeleportRoutine());
         }
+    }
+
+    public void RukasuDeath()
+    {
+        //ANIMAÇÃO DE MORTE
+        Destroy(gameObject);
+        Debug.Log("Morte no controller");
     }
 }

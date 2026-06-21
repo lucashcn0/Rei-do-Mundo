@@ -1,8 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
     [SerializeField] private int maxHealth = 100;
+    [SerializeField] private BossController RukasuController;
+    [SerializeField] private Player_Controller playerController;
 
     private int currentHealth;
 
@@ -26,7 +29,15 @@ public class Health : MonoBehaviour
     private void Die()
     {
         Debug.Log(gameObject.name + " morreu!");
+        if (CompareTag("Player"))
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("Menu");
 
-        Time.timeScale = 0f;
+        }
+        if (CompareTag("Rukasu"))
+        {
+            RukasuController.RukasuDeath();
+        }
     }
 }
