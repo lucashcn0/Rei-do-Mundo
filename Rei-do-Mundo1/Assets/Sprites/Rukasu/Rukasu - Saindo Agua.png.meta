@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 35c371007bce170438ebd4ad88601e3a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3987186068287669106
+    second: Rukasu - Saindo Agua_0
+  - first:
+      213: -8799765775483019499
+    second: Rukasu - Saindo Agua_1
+  - first:
+      213: 236664205016787433
+    second: Rukasu - Saindo Agua_2
+  - first:
+      213: -7783429061905397285
+    second: Rukasu - Saindo Agua_3
+  - first:
+      213: 1667199840624962216
+    second: Rukasu - Saindo Agua_4
+  - first:
+      213: 5240653854815316977
+    second: Rukasu - Saindo Agua_5
+  - first:
+      213: -8359727141517328190
+    second: Rukasu - Saindo Agua_6
+  - first:
+      213: -1760279619737948162
+    second: Rukasu - Saindo Agua_7
+  - first:
+      213: -7835051581027942983
+    second: Rukasu - Saindo Agua_8
+  - first:
+      213: -7136257927698061538
+    second: Rukasu - Saindo Agua_9
+  - first:
+      213: 8998818685494085205
+    second: Rukasu - Saindo Agua_10
+  - first:
+      213: 2918264370869733590
+    second: Rukasu - Saindo Agua_11
+  - first:
+      213: 2777020932148313377
+    second: Rukasu - Saindo Agua_12
+  - first:
+      213: -507212087999388834
+    second: Rukasu - Saindo Agua_13
+  - first:
+      213: 1230508292282059668
+    second: Rukasu - Saindo Agua_14
+  - first:
+      213: 1269273127355938860
+    second: Rukasu - Saindo Agua_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 276
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8cb35a556baaa8c0800000000000000
+      internalID: -3987186068287669106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 276
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fd1bd76a3f0e580800000000000000
+      internalID: -8799765775483019499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 274
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9631f27dcc84300800000000000000
+      internalID: 236664205016787433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_3
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 272
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd94daea184bbf390800000000000000
+      internalID: -7783429061905397285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_4
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 192
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aae90efb65132710800000000000000
+      internalID: 1667199840624962216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 191
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb6c0f2aea8ab840800000000000000
+      internalID: 5240653854815316977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_6
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 194
+        width: 41
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c00baed4784cfb80800000000000000
+      internalID: -8359727141517328190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_7
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 188
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effe820230b3297e0800000000000000
+      internalID: -1760279619737948162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 104
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd77f3591e444390800000000000000
+      internalID: -7835051581027942983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_9
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 102
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17edf9693be6fc90800000000000000
+      internalID: -7136257927698061538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_10
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 100
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556c50baae932ec70800000000000000
+      internalID: 8998818685494085205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 98
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d88e52dbf1cf7820800000000000000
+      internalID: 2918264370869733590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 15
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d368213d5f98620800000000000000
+      internalID: 2777020932148313377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 11
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5323051b4506f8f0800000000000000
+      internalID: -507212087999388834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_14
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 11
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b05a6b5c4a31110800000000000000
+      internalID: 1230508292282059668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Saindo Agua_15
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 11
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28fff63f2d5d9110800000000000000
+      internalID: 1269273127355938860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rukasu - Saindo Agua_0: -3987186068287669106
+      Rukasu - Saindo Agua_1: -8799765775483019499
+      Rukasu - Saindo Agua_10: 8998818685494085205
+      Rukasu - Saindo Agua_11: 2918264370869733590
+      Rukasu - Saindo Agua_12: 2777020932148313377
+      Rukasu - Saindo Agua_13: -507212087999388834
+      Rukasu - Saindo Agua_14: 1230508292282059668
+      Rukasu - Saindo Agua_15: 1269273127355938860
+      Rukasu - Saindo Agua_2: 236664205016787433
+      Rukasu - Saindo Agua_3: -7783429061905397285
+      Rukasu - Saindo Agua_4: 1667199840624962216
+      Rukasu - Saindo Agua_5: 5240653854815316977
+      Rukasu - Saindo Agua_6: -8359727141517328190
+      Rukasu - Saindo Agua_7: -1760279619737948162
+      Rukasu - Saindo Agua_8: -7835051581027942983
+      Rukasu - Saindo Agua_9: -7136257927698061538
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

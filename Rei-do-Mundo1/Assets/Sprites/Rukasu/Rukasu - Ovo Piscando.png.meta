@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 7c9ae5537f8a28e40a43e4bb3923406f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3646095256534177727
+    second: Rukasu - Ovo Piscando_0
+  - first:
+      213: 598136166879491078
+    second: Rukasu - Ovo Piscando_1
+  - first:
+      213: 4053986286125384557
+    second: Rukasu - Ovo Piscando_2
+  - first:
+      213: -3781010939666650020
+    second: Rukasu - Ovo Piscando_3
+  - first:
+      213: 2704157314740014276
+    second: Rukasu - Ovo Piscando_4
+  - first:
+      213: -4833275315923778288
+    second: Rukasu - Ovo Piscando_5
+  - first:
+      213: -2858715979500643911
+    second: Rukasu - Ovo Piscando_6
+  - first:
+      213: -7182685151810807091
+    second: Rukasu - Ovo Piscando_7
+  - first:
+      213: 8656180690525317833
+    second: Rukasu - Ovo Piscando_8
+  - first:
+      213: 536364808348534131
+    second: Rukasu - Ovo Piscando_9
+  - first:
+      213: -1258479968575620609
+    second: Rukasu - Ovo Piscando_10
+  - first:
+      213: 3982992725557971286
+    second: Rukasu - Ovo Piscando_11
+  - first:
+      213: -8943898721271859442
+    second: Rukasu - Ovo Piscando_12
+  - first:
+      213: 5823559016837377612
+    second: Rukasu - Ovo Piscando_13
+  - first:
+      213: -1304162012874515875
+    second: Rukasu - Ovo Piscando_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rukasu - Ovo Piscando_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 261
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7d4f66158899230800000000000000
+      internalID: 3646095256534177727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Ovo Piscando_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 261
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6047a2abca10d4800800000000000000
+      internalID: 598136166879491078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Ovo Piscando_2
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 261
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d630fcc5c07a24830800000000000000
+      internalID: 4053986286125384557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Ovo Piscando_3
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 261
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cad414596278bc0800000000000000
+      internalID: -3781010939666650020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Ovo Piscando_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 181
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc4ad120c8178520800000000000000
+      internalID: 2704157314740014276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Ovo Piscando_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 181
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01503bc35b1ccecb0800000000000000
+      internalID: -4833275315923778288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Ovo Piscando_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 181
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9912876fcc358d0800000000000000
+      internalID: -2858715979500643911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Ovo Piscando_7
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 181
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca18d0f8e9f15c90800000000000000
+      internalID: -7182685151810807091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Ovo Piscando_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 101
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca6b52c97ee02870800000000000000
+      internalID: 8656180690525317833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Ovo Piscando_9
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 101
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37582af83fc817700800000000000000
+      internalID: 536364808348534131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Ovo Piscando_10
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 101
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9fa14e22bf88ee0800000000000000
+      internalID: -1258479968575620609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Ovo Piscando_11
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 101
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65909d5f7ce664730800000000000000
+      internalID: 3982992725557971286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Ovo Piscando_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 21
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e073583ff73e0e380800000000000000
+      internalID: -8943898721271859442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Ovo Piscando_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 21
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e6d1f321071d050800000000000000
+      internalID: 5823559016837377612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rukasu - Ovo Piscando_14
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 21
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a5e0d1f8fa6ede0800000000000000
+      internalID: -1304162012874515875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rukasu - Ovo Piscando_0: 3646095256534177727
+      Rukasu - Ovo Piscando_1: 598136166879491078
+      Rukasu - Ovo Piscando_10: -1258479968575620609
+      Rukasu - Ovo Piscando_11: 3982992725557971286
+      Rukasu - Ovo Piscando_12: -8943898721271859442
+      Rukasu - Ovo Piscando_13: 5823559016837377612
+      Rukasu - Ovo Piscando_14: -1304162012874515875
+      Rukasu - Ovo Piscando_2: 4053986286125384557
+      Rukasu - Ovo Piscando_3: -3781010939666650020
+      Rukasu - Ovo Piscando_4: 2704157314740014276
+      Rukasu - Ovo Piscando_5: -4833275315923778288
+      Rukasu - Ovo Piscando_6: -2858715979500643911
+      Rukasu - Ovo Piscando_7: -7182685151810807091
+      Rukasu - Ovo Piscando_8: 8656180690525317833
+      Rukasu - Ovo Piscando_9: 536364808348534131
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

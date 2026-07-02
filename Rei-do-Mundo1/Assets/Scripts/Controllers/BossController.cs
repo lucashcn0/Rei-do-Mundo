@@ -14,14 +14,14 @@ public class BossController : MonoBehaviour
     [SerializeField] private float teleportCooldown = 15f;
 
     private Shooter shooter;
-    private TPMovement tpMovement;
+    private Tp_Boss tpMovement;
 
     private Health health;
 
     private void Awake()
     {
         shooter = GetComponent<Shooter>();
-        tpMovement = GetComponent<TPMovement>();
+        tpMovement = GetComponent<Tp_Boss>();
     }
 
     private void Start()

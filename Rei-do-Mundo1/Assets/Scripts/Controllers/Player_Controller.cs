@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class Player_Controller : MonoBehaviour
 {
@@ -16,5 +17,11 @@ public class Player_Controller : MonoBehaviour
         {
             shooting.SetFireDirection(context.ReadValue<Vector2>());
         }
+    }
+
+    public void PlayerDeath()
+    {
+        Destroy(gameObject);
+        SceneManager.LoadScene("Menu");
     }
 }
